@@ -1,0 +1,59 @@
+// Customização dos valores padrào do bootstrap
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Color system
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f2f2f2;
+$gray-200: #e6e6e6;
+$gray-300: #d8d8d8;
+$gray-400: #b3b3b3;
+$gray-500: #949494;
+$gray-600: #6c6c6c;
+$gray-700: #595959;
+$gray-800: #3a3a3a;
+$gray-900: #1a1a1a;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start blue-color-variables
+$blue-100: #beced9;
+$blue-200: #96aa8f;
+$blue-300: #6e89a6;
+$blue-400: #4d6f95;
+$blue-500: #285686;
+$blue-600: #20507d;
+$blue-700: #174772;
+$blue-800: #113d65;
+$blue-900: #0e2c4d;
+// scss-docs-end blue-color-variables
+
+// scss-docs-start brand-red-color-variables
+$brand-red-100: #beced9;
+$brand-red-200: #e899a1;
+$brand-red-300: #dc727e;
+$brand-red-400: #e7505f;
+$brand-red-500: #ed3d4a;
+$brand-red-600: #de3447;
+$brand-red-700: #cb2b40;
+$brand-red-800: #be3539;
+$brand-red-900: #af1a2e;
+// scss-docs-end brand-red-variables
+
+// scss-docs-start color-variables
+$blue:    $blue-900;
+$red:     #ff4040;
+$orange:  #ec9d28;
+$yellow:  #f2cc36;
+$green:   #00ad60;
+$brand-red: $brand-red-900;
+// scss-docs-end color-variables
+
+// scss-docs-start theme-color-variables
+$primary: $blue;
+$secondary: $brand-red;
+// scss-docs-end theme-color-variables
+
+// Tipography
+$font-family-base: "Open Sans", sans-serif;
